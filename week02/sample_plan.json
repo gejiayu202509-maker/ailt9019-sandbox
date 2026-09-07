@@ -1,0 +1,14 @@
+{
+  "max_payload_kg": 2.0,
+  "forbidden_zones": ["human_only_area"],
+  "objects": {
+    "blue_block": {"weight_kg": 0.4},
+    "toolbox": {"weight_kg": 3.5}
+  },
+  "plan": [
+    {"action": "move_to", "zone": "workbench"},
+    {"action": "pick", "object": "blue_block"},
+    {"action": "move_to", "zone": "sorting_bin"},
+    {"action": "place"}
+  ]
+}

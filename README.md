@@ -32,3 +32,8 @@ The tests cover a normal plan and two failure cases. This repository is intentio
 
 The plan uses fixed time ratios and does not yet account for deadlines, task difficulty, or prior mastery.
 
+## Week 2 build start
+
+Week 2 adds three scoped project candidates and a working prototype for the
+robotics/AI direction. See [`week02/README.md`](week02/README.md) for the demo,
+tests, acceptance criteria, and project boundaries.
